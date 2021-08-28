@@ -4,7 +4,7 @@ contract Counter {
     uint count;
 
     // Constructor syntax
-    constructor() public {
+    constructor() {
         count = 0;
     }
     
