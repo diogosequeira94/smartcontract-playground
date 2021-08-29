@@ -1,17 +1,19 @@
 pragma solidity ^0.8.7;
 
 contract Counter {
-    uint count;
+    uint256 count = 0;
 
     // Constructor syntax
-    constructor() {
+    /* 
+   constructor() {
         count = 0;
     }
-    
+    */
+
     /// Method syntax, [public] means visible outside contract
     /// [view] means it's only a getter
     /// returs(uint) to specify return type
-    function getCount() public view returns(uint) {
+    function getCount() public view returns (uint256) {
         return count;
     }
 
