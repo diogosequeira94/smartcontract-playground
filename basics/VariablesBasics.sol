@@ -1,6 +1,6 @@
 pragma solidity ^0.8.7;
 
-contract MyContract {
+contract VariablesBasics {
     /// State Variables (Global Variables) are stored in the blockchain itself
     int256 public myInt = 1;
     // uint can't have nßegative values
