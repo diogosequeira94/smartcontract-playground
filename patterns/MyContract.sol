@@ -2,6 +2,7 @@ pragma solidity ^0.6.0;
 
 contract MyContract {
     string secret;
+    address owner;
 
     // only the onwer of the SC can call it
     modifier onlyOwner() {
